@@ -1,5 +1,8 @@
-import React, { Component } from 'react';
+import React, {useState} from 'react';
 import { ImageBackground, StyleSheet, Text, View, Image } from 'react-native';
+
+
+
 
 const  Main= () => (
     <View style={styles.container}>
@@ -10,7 +13,9 @@ const  Main= () => (
         <ImageBackground source={require('./images/namaste.jpg')} style={styles.image}>
             <Text style={styles.text}>Namaste!</Text>
         </ImageBackground>
-
+    
+      
+     
       
     </View>
 );
